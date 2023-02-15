@@ -1,0 +1,24 @@
+Feature: Fazer compras no site
+  Eu como usuario quero acessar o site para fazer consultar 
+
+  Scenario: Fazer consulta 
+    Given que eu esteja no "https://www.lacoste.com/br/"
+    When consultar alguma peca de roupa
+    And adicionar no carrinho
+    Then consulta realizada com sucesso 
+
+Scenario: Fazer consulta logado
+    Given que eu esteja no "https://www.lacoste.com/br/"
+    And logar no site
+    When consultar alguma peca de roupa
+    And adicionar no carrinho
+    Then consulta realizada com sucesso 
+
+
+
+
+OBS: Nenhuma melhoria e nenhum BUG foi encontrado
+
+Relatorio: Automacao foi desenvolvida com a linguagem java por ser a linguagem que tenho conhecimento, construida no padrao page objects para ser mais facil a manutencao no codigo,
+so mostrando um pouco do meu conhecimento com um pequeno framework, espero conseguir ingressar nessa vaga pois irei agregar bastante para a empresa com meu emprenho e meu potencial,
+grato desde ja.
